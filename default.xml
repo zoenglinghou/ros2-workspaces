@@ -7,8 +7,7 @@
            remote="origin"
            sync-j="4" />
 
-  <project name="ros2-playground" remote="origin" path="playground" >
-    <project name="examples" remote="ros2" path="ws/src/exmamples" revision="iron" />
-  </project>
+  <project name="ros2-playground" remote="origin" path="playground" />
+  <project name="examples" remote="ros2" path="playground/ws/src/exmamples" revision="iron" />
 
 </manifest>
