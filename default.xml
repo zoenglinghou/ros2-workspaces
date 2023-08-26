@@ -9,5 +9,6 @@
 
   <project name="ros2-playground" remote="origin" path="playground" />
   <project name="examples" remote="ros2" path="playground/ws/src/examples" revision="iron" />
+  <project name="example_interfaces" remote="ros2" path="playground/ws/src/examples_interfaces" revision="iron" />
 
 </manifest>
