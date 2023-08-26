@@ -8,6 +8,6 @@
            sync-j="4" />
 
   <project name="ros2-playground" remote="origin" path="playground" />
-  <project name="examples" remote="ros2" path="playground/ws/src/exmamples" revision="iron" />
+  <project name="examples" remote="ros2" path="playground/ws/src/examples" revision="iron" />
 
 </manifest>
