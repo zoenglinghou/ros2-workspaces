@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/zoenglinghou" />
+  <remote name="ros2" fetch="https://github.com/ros2" />
+
+  <default revision="refs/heads/main"
+           remote="origin"
+           sync-j="4" />
+
+  <project name="ros2-playground" remote="origin" path="playground" >
+    <project name="examples" remote="ros2" path="ws/src/exmamples" revision="iron" />
+  </project>
+
+</manifest>
